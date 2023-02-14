@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GI-KACE ATTENDANCE LOGIN FORM</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="login-box">
+    <img src="logo.jpg" alt="logo">
+    <h2>GI-KACE Attendance Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Username/Email</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </a>
+    </form>
+    <p class="Reset Password"><a href="#" style="color: white;">Reset Password</a></p>
+  </div>
+  <!-- partial -->
+
+  <button id="toggle-theme">Toggle theme</button>
+
+  <script src="./index.js"></script>
+  <script>
+    const toggleThemeBtn = document.getElementById('toggle-theme');
+    toggleThemeBtn.addEventListener('click', function () {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+
+</body>
+
+</html>
